@@ -17,39 +17,39 @@ Sub-rede: Filial A (LAN):
 ## Capacidade: Até 254 endereços.
 Sub-redes:
 1. Setor de Suporte ao Cliente:
-### Capacidade: Até 128 endereços.
-### Configuração de VLAN.
+Capacidade: Até 128 endereços.
+Configuração de VLAN.
 2. Setor de Desenvolvimento de Software:
-### Capacidade: Até 64 endereços.
-### Configuração de VLAN.
+Capacidade: Até 64 endereços.
+Configuração de VLAN.
 3. Setor Comercial:
-### Capacidade: Até 32 endereços.
-### Configuração de VLAN.
+Capacidade: Até 32 endereços.
+Configuração de VLAN.
 4. Central de Processamento de Dados (Datacenter):
-### Capacidade: Até 32 endereços.
-### Configuração de VLAN.
-### Servidores:
-### Servidor HTTP.
-### Servidor DNS.
-### Servidor DHCP.
-### Servidor SMTP.
-### Opcional: Configuração de NAT para
+Capacidade: Até 32 endereços.
+Configuração de VLAN.
+Servidores:
+Servidor HTTP.
+Servidor DNS.
+Servidor DHCP.
+Servidor SMTP.
+Opcional: Configuração de NAT para
 redirecionamento de portas para DNS, HTTP,
 Email (DMZ).
-Sub-rede: Filial B (LAN):
-## Capacidade: Até 254 dispositivos.
-Sub-redes internas:
+## Sub-rede: Filial B (LAN):
+Capacidade: Até 254 dispositivos.
+## Sub-redes internas:
 1. Setor Administrativo:
-### Capacidade: Até 128 dispositivos.
-### Configuração de VLAN.
+Capacidade: Até 128 dispositivos.
+Configuração de VLAN.
 2. Rede Sem Fio:
-### Capacidade: Até 128 dispositivos.
-### Configuração de VLAN.
-Conectividade:
-## Cada filial deve se conectar com 2 ISPs.
-Configuração ISP A:
-## Rotas internas anunciadas usando OSPF (intraAS).
-## Roteamento interAS: Configurar anúncio de rotas BGP.
-Configuração ISP B:
-## Rotas internas anunciadas usando OSPF (intraAS).
-## Roteamento interAS: Configurar anúncio de rotas BGP.
+Capacidade: Até 128 dispositivos.
+Configuração de VLAN.
+## Conectividade:
+Cada filial deve se conectar com 2 ISPs.
+## Configuração ISP A:
+Rotas internas anunciadas usando OSPF (intraAS).
+Roteamento interAS: Configurar anúncio de rotas BGP.
+## Configuração ISP B:
+Rotas internas anunciadas usando OSPF (intraAS).
+Roteamento interAS: Configurar anúncio de rotas BGP.
