@@ -8,6 +8,7 @@
 ## 30% Etapa Final: Configuração de Servidores HTTP (10%), DHCP (10%), DNS
 (10%).
 ○ Início: 01/12 | Entrega: 07/12
+
 Desenvolva uma infraestrutura de rede corporativa com a capacidade para até 512
 endereços, dividida em duas sub-redes que representam duas filiais com diferentes
 localizações em uma região metropolitana.
